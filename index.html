@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+    <div class="container">
+        <h2>EMI Calculator</h2>
+        <label>Enter the principal loan amount:</label>
+        <br>
+        <input type="number" id="principal">
+        <br>
+        <label>Enter the Annual Interest Rate:</label>
+        <br>
+        <input type="number" id="rate">
+        <br>
+        <label>Enter the loan tenure in years:</label>
+        <br>
+        <input type="number" id="tenure">
+        <br>
+        <input type="button" onclick="emicalculator()" value="Calculate EMI" id="button">
+    </div>
+    <div id="result"></div>
+</div>
+</body>
+</html>

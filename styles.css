@@ -1,0 +1,44 @@
+body {
+    background-image: url('image.png');
+    
+    background-size: cover;
+    background-position: center;
+   
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+.container{
+    padding:20px;
+    border: 2px solid black;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20vh;
+    background: whitesmoke;
+    
+}
+h2{
+    text-align: center;
+}
+#result{
+    border: 2px solid black;
+    max-width: 650px;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: whitesmoke;
+    font-size: large;
+    padding: 10px;
+}
+#button{
+    max-width: 100px;
+}
+.background{
+    margin-top: 100px;
+}
